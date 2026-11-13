@@ -1,0 +1,283 @@
+@use '../helpers' as *;
+
+// 마이
+.miy {
+  // 메인
+  .main_area {
+    padding-bottom: 8.8rem;
+    .round_box {
+      overflow: hidden;
+      box-shadow: 0 0.4rem 2rem 0 rgba(0, 0, 0, 0.1);
+      .box_title {
+        white-space: pre-wrap;
+      }
+    }
+    .btn_go {
+      width: 100%;
+      height: auto;
+      margin-top: 2rem;
+      padding-top: 1.2rem;
+      border-top: 0.1rem solid $line2;
+      border-radius: 0;
+      font-weight: $fontRegular;
+      color: $text2;
+    }
+    .no_data {
+      margin: 3.4rem auto;
+      text-align: center;
+      p {
+        margin-top: 1.2rem;
+        color: $gray050;
+        @include fontHeight(1.6);
+        letter-spacing: -0.1rem;
+        + p {
+          margin-top: 0.4rem;
+          @include fontHeight(1.2);
+        }
+      }
+    }
+    .temp_img_area {
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    .mileage {
+      color: $text2;
+      .box_title {
+        display: block;
+        .tooltip_wrap {
+          bottom: -0.2rem;
+          .btn_tooltip {
+            height: auto;
+            i {
+              margin-left: 0;
+              &::before {
+                background-image: url(/src/assets/images/ic/ic_16_question_primary.png);
+              }
+            }
+          }
+          .tooltip_area {
+            top: 2.4rem;
+            left: -12.4rem;
+            .tooltip_content {
+              display: block;
+            }
+          }
+        }
+      }
+      .chart {
+        position: relative;
+        width: 100%;
+        max-width: 23.5rem;
+        max-height: 23.5rem;
+        height: 100%;
+        margin: auto;
+        canvas {
+          max-width: 100%;
+          max-height: 100%;
+          background-image: url(/src/assets/images/bg_chart_circle.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          transform: scaleX(-1);
+        }
+        .canvas2 {
+          position: absolute;
+          top: 1.7rem;
+          left: 1.7rem;
+        }
+        .canvas3 {
+          position: absolute;
+          top: 3.4rem;
+          left: 3.4rem;
+        }
+        .canvas4 {
+          position: absolute;
+          top: 5rem;
+          left: 5rem;
+        }
+        .canvas5 {
+          position: absolute;
+          top: 6.6rem;
+          left: 6.6rem;
+        }
+      }
+      .reward {
+        margin-top: 2rem;
+        h4 {
+          margin-bottom: 2rem;
+          font-weight: $fontMedium;
+          @include fontHeight(1.6);
+        }
+        &_list {
+          li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ~ li {
+              margin-top: 0.8rem;
+            }
+            .title {
+              display: flex;
+              align-items: center;
+              gap: 0.8rem;
+              color: $gray070;
+              img {
+                display: block;
+                width: 2rem;
+              }
+            }
+            .num {
+              font-family: $fontNum, sans-serif;
+              font-size: 1.6rem;
+              line-height: 1;
+              letter-spacing: 0;
+              strong {
+                font-weight: $fontBold;
+              }
+            }
+          }
+        }
+      }
+      &.before_traffic_card {
+        position: relative;
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          bottom: 3.8rem;
+          left: -2rem;
+          width: calc(100% + 4rem);
+          height: 47rem;
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+        }
+        .btn_traffic_card {
+          position: relative;
+          bottom: -2rem;
+          left: -2rem;
+          width: calc(100% + 4rem);
+          height: auto;
+          margin-top: 0.6rem;
+          padding: 1.3rem;
+          background-color: $primary2;
+          border-radius: 0;
+          font-weight: $fontRegular;
+          color: $white;
+          span {
+            margin-left: 1rem;
+          }
+        }
+      }
+    }
+    .move {
+      .temp_img_area {
+        padding: 0 1.2rem;
+      }
+    }
+    .trans_pay {
+      .chart {
+        position: relative;
+        width: 100%;
+        max-width: 23rem;
+        margin: auto;
+        .month_wrap {
+          display: flex;
+          justify-content: space-between;
+          max-width: 18.7rem;
+          margin: 0.6rem auto 0;
+          font-family: $fontNum, sans-serif;
+          font-size: 1.2rem;
+          font-weight: $fontMedium;
+          line-height: 1;
+          letter-spacing: 0;
+          color: $gray050;
+          text-align: center;
+          .month {
+            margin-bottom: 0.4rem;
+            font-size: 1.4rem;
+            color: $text2;
+            strong {
+              font-weight: $fontBold;
+            }
+          }
+        }
+      }
+    }
+    .user {
+      .swiper {
+        width: calc(100% + 2rem);
+        padding-right: 2rem;
+        .swiper-wrapper {
+          .swiper-slide {
+            width: auto;
+            .img_area {
+              position: relative;
+              width: 20rem;
+              img {
+                display: block;
+                width: 100%;
+              }
+              .btn {
+                position: absolute;
+                top: 1rem;
+                right: 0.9rem;
+                height: auto;
+                padding: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    .tree {
+      &_step {
+        padding-top: 2rem;
+        text-align: center;
+        .step {
+          margin-bottom: 0.4rem;
+          @include fontHeight(1.6);
+          font-weight: $fontBold;
+          color: $primary2;
+        }
+        .desc {
+          color: $gray070;
+        }
+      }
+    }
+    .btn_area {
+      position: fixed;
+      bottom: 2rem;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      .btn {
+        position: relative;
+        max-width: 33rem;
+        height: auto;
+        margin: auto;
+        padding: 0;
+        img {
+          display: block;
+          width: 100%;
+        }
+        &.btn_close {
+          position: absolute;
+          top: 2.6rem;
+          right: 1.9rem;
+          width: auto;
+          padding: 0;
+        }
+      }
+    }
+    .btn-ani-enter-active,
+    .btn-ani-leave-active {
+      transition: all 0.3s ease-out;
+    }
+    .btn-ani-enter-from,
+    .btn-ani-leave-to {
+      transform: translateY(2rem);
+      opacity: 0;
+    }
+  }
+}

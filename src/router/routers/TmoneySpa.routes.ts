@@ -1,0 +1,335 @@
+const container = () => import('@/views/pages/_container.vue')
+
+// 장착법
+// 마이
+const MIY001 = () => import('@/views/pages/Tmoney/Spa/MIY/MIY001.vue')
+const MIY002 = () => import('@/views/pages/Tmoney/Spa/MIY/MIY002.vue')
+const MIY003 = () => import('@/views/pages/Tmoney/Spa/MIY/MIY003.vue')
+
+// 혜택
+const BEF001 = () => import('@/views/pages/Tmoney/Spa/BEF/BEF001.vue')
+const BEF002 = () => import('@/views/pages/Tmoney/Spa/BEF/BEF002.vue')
+const BEF003 = () => import('@/views/pages/Tmoney/Spa/BEF/BEF003.vue')
+const BEF005 = () => import('@/views/pages/Tmoney/Spa/BEF/BEF005.vue')
+const BEF006 = () => import('@/views/pages/Tmoney/Spa/BEF/BEF006.vue')
+const BEF007 = () => import('@/views/pages/Tmoney/Spa/BEF/BEF007.vue')
+const BEF008 = () => import('@/views/pages/Tmoney/Spa/BEF/BEF008.vue')
+
+// 더보기
+const MOR001 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR001.vue')
+const MOR001_1 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR001_1.vue')
+const MOR001_2 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR001_2.vue')
+const MOR001_3 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR001_3.vue')
+const MOR001_4 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR001_4.vue')
+const MOR001_5 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR001_5.vue')
+const MOR002 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR002.vue')
+const MOR004 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR004.vue')
+const MOR005 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR005.vue')
+const MOR006 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR006.vue')
+const MOR008 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR008.vue')
+const MOR009 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR009.vue')
+const MOR010 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR010.vue')
+const MOR010_0 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR010_0.vue')
+const MOR010_1 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR010_1.vue')
+const MOR010_2 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR010_2.vue')
+const MOR010_3 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR010_3.vue')
+const MOR010_4 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR010_4.vue')
+const MOR010_5 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR010_5.vue')
+const MOR011 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR011.vue')
+const MOR012 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR012.vue')
+const MOR013 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR013.vue')
+const MOR014 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR014.vue')
+const KIC067 = () => import('@/views/pages/Tmoney/Spa/MOR/KIC067.vue')
+const KIC069 = () => import('@/views/pages/Tmoney/Spa/MOR/KIC069.vue')
+const MOR016 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR016.vue')
+const MOR016_1 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR016_1.vue')
+const MOR019 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR019.vue')
+const MOR020 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR020.vue')
+const MOR021 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR021.vue')
+const MOR021_1 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR021_1.vue')
+const MOR021_2 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR021_2.vue')
+const MOR021_3 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR021_3.vue')
+const MOR023 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR023.vue')
+const MOR024 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR024.vue')
+const MOR028 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR028.vue')
+const MOR031 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR031.vue')
+const MOR032 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR032.vue')
+const MOR033 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR033.vue')
+const MOR037 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR037.vue')
+const MOR039 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR039.vue')
+const MOR039_1 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR039_1.vue')
+const MOR039_2 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR039_2.vue')
+const MOR040 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR040.vue')
+const MOR045 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR045.vue')
+const MOR045_1 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR045_1.vue')
+const MOR046 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR046.vue')
+const MOR047 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR047.vue')
+const MOR048 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR048.vue')
+const MOR048_1 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR048_1.vue')
+const MOR050 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR050.vue')
+const MOR051 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR051.vue')
+const MOR067 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR067.vue')
+const MOR069 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR069.vue')
+const MOR070 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR070.vue')
+const MOR071 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR071.vue')
+const MOR072 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR072.vue')
+const MOR074 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR074.vue')
+const MOR075 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR075.vue')
+const MOR077 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR077.vue')
+const MOR079 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR079.vue')
+const MOR082 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR082.vue')
+const MOR085 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR085.vue')
+const MOR089 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR089.vue')
+const MOR090 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR090.vue')
+const MOR108 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR108.vue')
+const MOR126 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR126.vue')
+const MOR109 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR109.vue')
+const MOR110 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR110.vue')
+const MOR121 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR121.vue')
+const MOR127 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR127.vue')
+const MOR129 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR129.vue')
+const MOR133 = () => import('@/views/pages/Tmoney/Spa/MOR/MOR133.vue')
+
+// 이용내역
+const DET001 = () => import('@/views/pages/Tmoney/Spa/DET/DET001.vue')
+const DET002 = () => import('@/views/pages/Tmoney/Spa/DET/DET002.vue')
+const DET003 = () => import('@/views/pages/Tmoney/Spa/DET/DET003.vue')
+const DET004 = () => import('@/views/pages/Tmoney/Spa/DET/DET004.vue')
+const DET005 = () => import('@/views/pages/Tmoney/Spa/DET/DET005.vue')
+const DET006 = () => import('@/views/pages/Tmoney/Spa/DET/DET006.vue')
+const DET007 = () => import('@/views/pages/Tmoney/Spa/DET/DET007.vue')
+const DET008 = () => import('@/views/pages/Tmoney/Spa/DET/DET008.vue')
+const DET009 = () => import('@/views/pages/Tmoney/Spa/DET/DET009.vue')
+const DET010 = () => import('@/views/pages/Tmoney/Spa/DET/DET010.vue')
+const DET012_01 = () => import('@/views/pages/Tmoney/Spa/DET/DET012_01.vue')
+const DET012_02 = () => import('@/views/pages/Tmoney/Spa/DET/DET012_02.vue')
+const DET012_03 = () => import('@/views/pages/Tmoney/Spa/DET/DET012_03.vue')
+const DET013_01 = () => import('@/views/pages/Tmoney/Spa/DET/DET013_01.vue')
+const DET014_01 = () => import('@/views/pages/Tmoney/Spa/DET/DET014_01.vue')
+const DET025 = () => import('@/views/pages/Tmoney/Spa/DET/DET025.vue')
+const DET026 = () => import('@/views/pages/Tmoney/Spa/DET/DET026.vue')
+
+// 결제내역
+const DET028 = () => import('@/views/pages/Tmoney/Spa/DET/DET028.vue')
+const DET028_1 = () => import('@/views/pages/Tmoney/Spa/DET/DET028_1.vue')
+const DET029 = () => import('@/views/pages/Tmoney/Spa/DET/DET029.vue')
+const DET030 = () => import('@/views/pages/Tmoney/Spa/DET/DET030.vue')
+const DET031 = () => import('@/views/pages/Tmoney/Spa/DET/DET031.vue')
+const DET032 = () => import('@/views/pages/Tmoney/Spa/DET/DET032.vue')
+const DET033 = () => import('@/views/pages/Tmoney/Spa/DET/DET033.vue')
+const DET034 = () => import('@/views/pages/Tmoney/Spa/DET/DET034.vue')
+const DET035 = () => import('@/views/pages/Tmoney/Spa/DET/DET035.vue')
+const DET036 = () => import('@/views/pages/Tmoney/Spa/DET/DET036.vue')
+const DET037 = () => import('@/views/pages/Tmoney/Spa/DET/DET037.vue')
+const DET038 = () => import('@/views/pages/Tmoney/Spa/DET/DET038.vue')
+const DET039 = () => import('@/views/pages/Tmoney/Spa/DET/DET039.vue')
+const DET041 = () => import('@/views/pages/Tmoney/Spa/DET/DET041.vue')
+const DET042 = () => import('@/views/pages/Tmoney/Spa/DET/DET042.vue')
+const DET043 = () => import('@/views/pages/Tmoney/Spa/DET/DET043.vue')
+const DET043_1 = () => import('@/views/pages/Tmoney/Spa/DET/DET043_1.vue')
+const DET043_2 = () => import('@/views/pages/Tmoney/Spa/DET/DET043_2.vue')
+const DET043_3 = () => import('@/views/pages/Tmoney/Spa/DET/DET043_3.vue')
+const DET044 = () => import('@/views/pages/Tmoney/Spa/DET/DET044.vue')
+const DET045 = () => import('@/views/pages/Tmoney/Spa/DET/DET045.vue')
+const DET046 = () => import('@/views/pages/Tmoney/Spa/DET/DET046.vue')
+const DET048 = () => import('@/views/pages/Tmoney/Spa/DET/DET048.vue')
+const DET053 = () => import('@/views/pages/Tmoney/Spa/DET/DET053.vue')
+const DET054 = () => import('@/views/pages/Tmoney/Spa/DET/DET054.vue')
+const DET055 = () => import('@/views/pages/Tmoney/Spa/DET/DET055.vue')
+const DET056 = () => import('@/views/pages/Tmoney/Spa/DET/DET056.vue')
+const DET057 = () => import('@/views/pages/Tmoney/Spa/DET/DET057.vue')
+const DET059 = () => import('@/views/pages/Tmoney/Spa/DET/DET059.vue')
+const DET060 = () => import('@/views/pages/Tmoney/Spa/DET/DET060.vue')
+const DET062 = () => import('@/views/pages/Tmoney/Spa/DET/DET062.vue')
+const DET064 = () => import('@/views/pages/Tmoney/Spa/DET/DET064.vue')
+const DET065 = () => import('@/views/pages/Tmoney/Spa/DET/DET065.vue')
+const DET067 = () => import('@/views/pages/Tmoney/Spa/DET/DET067.vue')
+const DET068 = () => import('@/views/pages/Tmoney/Spa/DET/DET068.vue')
+const DET069 = () => import('@/views/pages/Tmoney/Spa/DET/DET069.vue')
+const DET071 = () => import('@/views/pages/Tmoney/Spa/DET/DET071.vue')
+const DET073 = () => import('@/views/pages/Tmoney/Spa/DET/DET073.vue')
+const DET074 = () => import('@/views/pages/Tmoney/Spa/DET/DET074.vue')
+const DET080 = () => import('@/views/pages/Tmoney/Spa/DET/DET080.vue')
+const DET081 = () => import('@/views/pages/Tmoney/Spa/DET/DET081.vue')
+const DET082 = () => import('@/views/pages/Tmoney/Spa/DET/DET082.vue')
+const DET085 = () => import('@/views/pages/Tmoney/Spa/DET/DET085.vue')
+const DET089 = () => import('@/views/pages/Tmoney/Spa/DET/DET089.vue')
+const DET090 = () => import('@/views/pages/Tmoney/Spa/DET/DET090.vue')
+const DET091 = () => import('@/views/pages/Tmoney/Spa/DET/DET091.vue')
+const DET095 = () => import('@/views/pages/Tmoney/Spa/DET/DET095.vue')
+const DET096 = () => import('@/views/pages/Tmoney/Spa/DET/DET096.vue')
+const DET101 = () => import('@/views/pages/Tmoney/Spa/DET/DET101.vue')
+const DET104 = () => import('@/views/pages/Tmoney/Spa/DET/DET104.vue')
+const DET105 = () => import('@/views/pages/Tmoney/Spa/DET/DET105.vue')
+const DET107 = () => import('@/views/pages/Tmoney/Spa/DET/DET107.vue')
+const DET109 = () => import('@/views/pages/Tmoney/Spa/DET/DET109.vue')
+const DET110 = () => import('@/views/pages/Tmoney/Spa/DET/DET110.vue')
+
+
+export default {
+  path: '/Tmoney',
+  redirect: '/Tmoney',
+  component: container,
+  children: [
+    // 장착법
+    // 마이
+    { component: MIY001, path: '/tmoney/Spa/MIY/MIY001.vue' },
+    { component: MIY002, path: '/tmoney/Spa/MIY/MIY002.vue' },
+    { component: MIY003, path: '/tmoney/Spa/MIY/MIY003.vue' },
+    // 혜택
+    { component: BEF001, path: '/tmoney/Spa/BEF/BEF001.vue' },
+    { component: BEF002, path: '/tmoney/Spa/BEF/BEF002.vue' },
+    { component: BEF003, path: '/tmoney/Spa/BEF/BEF003.vue' },
+    { component: BEF005, path: '/tmoney/Spa/BEF/BEF005.vue' },
+    { component: BEF006, path: '/tmoney/Spa/BEF/BEF006.vue' },
+    { component: BEF007, path: '/tmoney/Spa/BEF/BEF007.vue' },
+    { component: BEF008, path: '/tmoney/Spa/BEF/BEF008.vue' },
+    // 더보기
+    { component: MOR001, path: '/tmoney/Spa/MOR/MOR001.vue' },
+    { component: MOR001_1, path: '/tmoney/Spa/MOR/MOR001_1.vue' },
+    { component: MOR001_2, path: '/tmoney/Spa/MOR/MOR001_2.vue' },
+    { component: MOR001_3, path: '/tmoney/Spa/MOR/MOR001_3.vue' },
+    { component: MOR001_4, path: '/tmoney/Spa/MOR/MOR001_4.vue' },
+    { component: MOR001_5, path: '/tmoney/Spa/MOR/MOR001_5.vue' },
+    { component: MOR002, path: '/tmoney/Spa/MOR/MOR002.vue' },
+    { component: MOR004, path: '/tmoney/Spa/MOR/MOR004.vue' },
+    { component: MOR005, path: '/tmoney/Spa/MOR/MOR005.vue' },
+    { component: MOR006, path: '/tmoney/Spa/MOR/MOR006.vue' },
+    { component: MOR008, path: '/tmoney/Spa/MOR/MOR008.vue' },
+    { component: MOR009, path: '/tmoney/Spa/MOR/MOR009.vue' },
+    { component: MOR010, path: '/tmoney/Spa/MOR/MOR010.vue' },
+    { component: MOR010_0, path: '/tmoney/Spa/MOR/MOR010_0.vue' },
+    { component: MOR010_1, path: '/tmoney/Spa/MOR/MOR010_1.vue' },
+    { component: MOR010_2, path: '/tmoney/Spa/MOR/MOR010_2.vue' },
+    { component: MOR010_3, path: '/tmoney/Spa/MOR/MOR010_3.vue' },
+    { component: MOR010_4, path: '/tmoney/Spa/MOR/MOR010_4.vue' },
+    { component: MOR010_5, path: '/tmoney/Spa/MOR/MOR010_5.vue' },
+    { component: MOR011, path: '/tmoney/Spa/MOR/MOR011.vue' },
+    { component: MOR012, path: '/tmoney/Spa/MOR/MOR012.vue' },
+    { component: MOR013, path: '/tmoney/Spa/MOR/MOR013.vue' },
+    { component: MOR014, path: '/tmoney/Spa/MOR/MOR014.vue' },
+    { component: KIC067, path: '/tmoney/Spa/MOR/KIC067.vue' },
+    { component: KIC069, path: '/tmoney/Spa/MOR/KIC069.vue' },
+    { component: MOR016, path: '/tmoney/Spa/MOR/MOR016.vue' },
+    { component: MOR016_1, path: '/tmoney/Spa/MOR/MOR016_1.vue' },
+    { component: MOR019, path: '/tmoney/Spa/MOR/MOR019.vue' },
+    { component: MOR020, path: '/tmoney/Spa/MOR/MOR020.vue' },
+    { component: MOR021, path: '/tmoney/Spa/MOR/MOR021.vue' },
+    { component: MOR021_1, path: '/tmoney/Spa/MOR/MOR021_1.vue' },
+    { component: MOR021_2, path: '/tmoney/Spa/MOR/MOR021_2.vue' },
+    { component: MOR021_3, path: '/tmoney/Spa/MOR/MOR021_3.vue' },
+    { component: MOR023, path: '/tmoney/Spa/MOR/MOR023.vue' },
+    { component: MOR024, path: '/tmoney/Spa/MOR/MOR024.vue' },
+    { component: MOR028, path: '/tmoney/Spa/MOR/MOR028.vue' },
+    { component: MOR031, path: '/tmoney/Spa/MOR/MOR031.vue' },
+    { component: MOR032, path: '/tmoney/Spa/MOR/MOR032.vue' },
+    { component: MOR033, path: '/tmoney/Spa/MOR/MOR033.vue' },
+    { component: MOR037, path: '/tmoney/Spa/MOR/MOR037.vue' },
+    { component: MOR039, path: '/tmoney/Spa/MOR/MOR039.vue' },
+    { component: MOR039_1, path: '/tmoney/Spa/MOR/MOR039_1.vue' },
+    { component: MOR039_2, path: '/tmoney/Spa/MOR/MOR039_2.vue' },
+    { component: MOR040, path: '/tmoney/Spa/MOR/MOR040.vue' },
+    { component: MOR045, path: '/tmoney/Spa/MOR/MOR045.vue' },
+    { component: MOR045_1, path: '/tmoney/Spa/MOR/MOR045_1.vue' },
+    { component: MOR046, path: '/tmoney/Spa/MOR/MOR046.vue' },
+    { component: MOR047, path: '/tmoney/Spa/MOR/MOR047.vue' },
+    { component: MOR048, path: '/tmoney/Spa/MOR/MOR048.vue' },
+    { component: MOR048_1, path: '/tmoney/Spa/MOR/MOR048_1.vue' },
+    { component: MOR050, path: '/tmoney/Spa/MOR/MOR050.vue' },
+    { component: MOR051, path: '/tmoney/Spa/MOR/MOR051.vue' },
+    { component: MOR067, path: '/tmoney/Spa/MOR/MOR067.vue' },
+    { component: MOR069, path: '/tmoney/Spa/MOR/MOR069.vue' },
+    { component: MOR070, path: '/tmoney/Spa/MOR/MOR070.vue' },
+    { component: MOR071, path: '/tmoney/Spa/MOR/MOR071.vue' },
+    { component: MOR072, path: '/tmoney/Spa/MOR/MOR072.vue' },
+    { component: MOR074, path: '/tmoney/Spa/MOR/MOR074.vue' },
+    { component: MOR075, path: '/tmoney/Spa/MOR/MOR075.vue' },
+    { component: MOR077, path: '/tmoney/Spa/MOR/MOR077.vue' },
+    { component: MOR079, path: '/tmoney/Spa/MOR/MOR079.vue' },
+    { component: MOR082, path: '/tmoney/Spa/MOR/MOR082.vue' },
+    { component: MOR085, path: '/tmoney/Spa/MOR/MOR085.vue' },
+    { component: MOR089, path: '/tmoney/Spa/MOR/MOR089.vue' },
+    { component: MOR090, path: '/tmoney/Spa/MOR/MOR090.vue' },
+    { component: MOR108, path: '/tmoney/Spa/MOR/MOR108.vue' },
+    { component: MOR126, path: '/tmoney/Spa/MOR/MOR126.vue' },
+    { component: MOR109, path: '/tmoney/Spa/MOR/MOR109.vue' },
+    { component: MOR110, path: '/tmoney/Spa/MOR/MOR110.vue' },
+    { component: MOR121, path: '/tmoney/Spa/MOR/MOR121.vue' },
+    { component: MOR127, path: '/tmoney/Spa/MOR/MOR127.vue' },
+    { component: MOR129, path: '/tmoney/Spa/MOR/MOR129.vue' },
+    { component: MOR133, path: '/tmoney/Spa/MOR/MOR133.vue' },
+    // 이용내역
+    { component: DET001, path: '/tmoney/Spa/DET/DET001.vue' },
+    { component: DET002, path: '/tmoney/Spa/DET/DET002.vue' },
+    { component: DET003, path: '/tmoney/Spa/DET/DET003.vue' },
+    { component: DET004, path: '/tmoney/Spa/DET/DET004.vue' },
+    { component: DET005, path: '/tmoney/Spa/DET/DET005.vue' },
+    { component: DET006, path: '/tmoney/Spa/DET/DET006.vue' },
+    { component: DET007, path: '/tmoney/Spa/DET/DET007.vue' },
+    { component: DET008, path: '/tmoney/Spa/DET/DET008.vue' },
+    { component: DET009, path: '/tmoney/Spa/DET/DET009.vue' },
+    { component: DET010, path: '/tmoney/Spa/DET/DET010.vue' },
+    { component: DET012_01, path: '/tmoney/Spa/DET/DET012_01.vue' },
+    { component: DET012_02, path: '/tmoney/Spa/DET/DET012_02.vue' },
+    { component: DET012_03, path: '/tmoney/Spa/DET/DET012_03.vue' },
+    { component: DET013_01, path: '/tmoney/Spa/DET/DET013_01.vue' },
+    { component: DET014_01, path: '/tmoney/Spa/DET/DET014_01.vue' },
+    { component: DET025, path: '/tmoney/Spa/DET/DET025.vue' },
+    { component: DET026, path: '/tmoney/Spa/DET/DET026.vue' },
+    // 결제내역
+    { component: DET028, path: '/tmoney/Spa/DET/DET028.vue' },
+    { component: DET028_1, path: '/tmoney/Spa/DET/DET028_1.vue' },
+    { component: DET029, path: '/tmoney/Spa/DET/DET029.vue' },
+    { component: DET030, path: '/tmoney/Spa/DET/DET030.vue' },
+    { component: DET031, path: '/tmoney/Spa/DET/DET031.vue' },
+    { component: DET032, path: '/tmoney/Spa/DET/DET032.vue' },
+    { component: DET033, path: '/tmoney/Spa/DET/DET033.vue' },
+    { component: DET034, path: '/tmoney/Spa/DET/DET034.vue' },
+    { component: DET035, path: '/tmoney/Spa/DET/DET035.vue' },
+    { component: DET036, path: '/tmoney/Spa/DET/DET036.vue' },
+    { component: DET037, path: '/tmoney/Spa/DET/DET037.vue' },
+    { component: DET038, path: '/tmoney/Spa/DET/DET038.vue' },
+    { component: DET039, path: '/tmoney/Spa/DET/DET039.vue' },
+    { component: DET041, path: '/tmoney/Spa/DET/DET041.vue' },
+    { component: DET042, path: '/tmoney/Spa/DET/DET042.vue' },
+    { component: DET043, path: '/tmoney/Spa/DET/DET043.vue' },
+    { component: DET043_1, path: '/tmoney/Spa/DET/DET043_1.vue' },
+    { component: DET043_2, path: '/tmoney/Spa/DET/DET043_2.vue' },
+    { component: DET043_3, path: '/tmoney/Spa/DET/DET043_3.vue' },
+    { component: DET044, path: '/tmoney/Spa/DET/DET044.vue' },
+    { component: DET045, path: '/tmoney/Spa/DET/DET045.vue' },
+    { component: DET046, path: '/tmoney/Spa/DET/DET046.vue' },
+    { component: DET048, path: '/tmoney/Spa/DET/DET048.vue' },
+    { component: DET053, path: '/tmoney/Spa/DET/DET053.vue' },
+    { component: DET054, path: '/tmoney/Spa/DET/DET054.vue' },
+    { component: DET055, path: '/tmoney/Spa/DET/DET055.vue' },
+    { component: DET056, path: '/tmoney/Spa/DET/DET056.vue' },
+    { component: DET057, path: '/tmoney/Spa/DET/DET057.vue' },
+    { component: DET059, path: '/tmoney/Spa/DET/DET059.vue' },
+    { component: DET060, path: '/tmoney/Spa/DET/DET060.vue' },
+    { component: DET062, path: '/tmoney/Spa/DET/DET062.vue' },
+    { component: DET064, path: '/tmoney/Spa/DET/DET064.vue' },
+    { component: DET065, path: '/tmoney/Spa/DET/DET065.vue' },
+    { component: DET067, path: '/tmoney/Spa/DET/DET067.vue' },
+    { component: DET068, path: '/tmoney/Spa/DET/DET068.vue' },
+    { component: DET069, path: '/tmoney/Spa/DET/DET069.vue' },
+    { component: DET071, path: '/tmoney/Spa/DET/DET071.vue' },
+    { component: DET073, path: '/tmoney/Spa/DET/DET073.vue' },
+    { component: DET074, path: '/tmoney/Spa/DET/DET074.vue' },
+    { component: DET080, path: '/tmoney/Spa/DET/DET080.vue' },
+    { component: DET081, path: '/tmoney/Spa/DET/DET081.vue' },
+    { component: DET082, path: '/tmoney/Spa/DET/DET082.vue' },
+    { component: DET085, path: '/tmoney/Spa/DET/DET085.vue' },
+    { component: DET089, path: '/tmoney/Spa/DET/DET089.vue' },
+    { component: DET090, path: '/tmoney/Spa/DET/DET090.vue' },
+    { component: DET091, path: '/tmoney/Spa/DET/DET091.vue' },
+    { component: DET095, path: '/tmoney/Spa/DET/DET095.vue' },
+    { component: DET096, path: '/tmoney/Spa/DET/DET096.vue' },
+    { component: DET101, path: '/tmoney/Spa/DET/DET101.vue' },
+    { component: DET104, path: '/tmoney/Spa/DET/DET104.vue' },
+    { component: DET105, path: '/tmoney/Spa/DET/DET105.vue' },
+    { component: DET107, path: '/tmoney/Spa/DET/DET107.vue' },
+    { component: DET109, path: '/tmoney/Spa/DET/DET109.vue' },
+    { component: DET110, path: '/tmoney/Spa/DET/DET110.vue' },
+  ]
+}

@@ -1,0 +1,39 @@
+@use '../helpers' as *;
+
+/* font */
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$font_path}/NotoSansKR-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url('#{$font_path}/NotoSansKR-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$font_path}/NotoSansKR-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$font_path}/SpoqaHanSansNeo-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 500;
+  src: url('#{$font_path}/SpoqaHanSansNeo-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$font_path}/SpoqaHanSansNeo-Bold.woff') format('woff');
+}

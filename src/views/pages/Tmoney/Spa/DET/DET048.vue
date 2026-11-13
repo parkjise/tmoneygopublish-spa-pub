@@ -1,0 +1,303 @@
+<script setup lang="ts">
+import subHeader from '@/components/layout/SubHeader.vue'
+import uuIc from '@/components/uu-components/UuIc.vue'
+import UuButton from '@/components/uu-components/UuButton.vue';
+import RoundBox from '@/components/layout/RoundBox.vue';
+import UuAccordion from '@/components/uu-components/UuAccordion.vue';
+import UuAccordionItem from '@/components/uu-components/UuAccordionItem.vue';
+import UuTabs from '@/components/uu-components/UuTabs.vue';
+import UuTab from '@/components/uu-components/UuTab.vue';
+import UuCheckbox from '@/components/uu-components/UuCheckbox.vue';
+
+</script>
+<template>
+  <!-- header -->
+  <sub-header
+    title="결제수단 관리"
+  />
+  <!-- // header -->
+  <!-- main -->
+  <main class="main det">
+    <div class="container">
+      <div class="payment_manage_area">
+        <round-box
+          title="티머니"
+          class="tmoney"
+        >
+          <p class="text">
+            모바일티머니는 서비스 결제 시 등록된 수단을 선택하여
+            지정할 수 있습니다.
+          </p>
+          <uu-accordion
+            multiple
+            class="tmoney"
+          >
+            <uu-accordion-item>
+              <template #accordion_header>
+                <img
+                  src="/src/assets/images/logo_mobiletmoney.png"
+                  alt="Mobile Tmoney 로고"
+                >
+              </template>
+              <template #accordion_body>
+                <div class="regist after">
+                  <ul class="regist_list">
+                    <li>
+                      <p>티머니Pay&GO</p>
+                      <p>Pay&GO</p>
+                    </li>
+                    <li>
+                      <p>페이머니</p>
+                      <p>Pay money</p>
+                    </li>
+                  </ul>
+                  <div class="bottom">
+                    <uu-button
+                      label="모바일티머니 가기"
+                      btn-style="none"
+                    />
+                    <uu-button
+                      label="등록 해제하기"
+                      btn-style="none"
+                    />
+                  </div>
+                </div>
+              </template>
+            </uu-accordion-item>
+          </uu-accordion>
+          <p class="text">
+            프로모션 문구가 들어갑니다.
+          </p>
+          <uu-accordion
+            multiple
+            class="tmoney"
+          >
+            <uu-accordion-item>
+              <template #accordion_header>
+                <img
+                  src="/src/assets/images/logo_tmoneybizpay.png"
+                  alt="Tmoney Biz Pay 로고"
+                >
+              </template>
+              <template #accordion_body>
+                <div class="regist after">
+                  <ul class="regist_list">
+                    <li>
+                      <p>비즈페이</p>
+                      <p>Biz.Pay</p>
+                    </li>
+                  </ul>
+                  <div class="bottom">
+                    <uu-button
+                      label="티머니 비즈페이 가기"
+                      btn-style="none"
+                    />
+                    <uu-button
+                      label="등록 해제하기"
+                      btn-style="none"
+                    />
+                  </div>
+                </div>
+              </template>
+            </uu-accordion-item>
+          </uu-accordion>
+          <p class="text">
+            프로모션 문구가 들어갑니다.
+          </p>
+        </round-box>
+        <round-box title="네이버페이">
+          <div class="pay naver">
+            <p class="img_area">
+              <img
+                src="/src/assets/images/logo_naverpay.svg"
+                alt="네이버페이"
+              >
+            </p>
+            <uu-button
+              btn-color="secondary"
+              size="xs"
+              label="간편등록"
+              class="btn_easy_regist"
+            />
+          </div>
+        </round-box>
+        <round-box title="토스페이">
+          <div class="pay toss">
+            <p class="img_area">
+              <img
+                src="/src/assets/images/logo_tosspay.svg"
+                alt="토스페이"
+              >
+            </p>
+            <uu-button
+              btn-color="secondary"
+              size="xs"
+              label="간편등록"
+              class="btn_easy_regist"
+            />
+          </div>
+        </round-box>
+        <round-box
+          title="신용/체크 카드"
+          class="card"
+        >
+          <uu-tabs
+            class="segment_tab"
+          >
+            <uu-tab
+              title="고속･시외･항공"
+              active
+            >
+              <div class="card_regist_area">
+                <uu-accordion multiple> 
+                  <uu-accordion-item class="shinhan">
+                    <template #accordion_header>
+                      <span class="card">
+                        <span class="card_title">
+                          신한급여카드
+                        </span>
+                        <span class="card_logo">
+                          <img
+                            src="/src/assets/images/logo_shinhancard.svg"
+                            alt="신한카드 로고"
+                          >
+                        </span>
+                      </span>
+                    </template>
+                    <template #accordion_body>
+                      <div class="card_info">
+                        <p class="card_num">
+                          <span>1234</span>
+                          <span>●●●●</span>
+                          <span>●●●●</span>
+                          <span>9876</span>
+                        </p>
+                        <div class="card_btn_area">
+                          <uu-button
+                            label="별명 변경"
+                            btn-style="none"
+                          />
+                          <uu-button
+                            label="주카드 취소"
+                            btn-style="none"
+                          />
+                          <uu-button
+                            label="카드 삭제"
+                            btn-style="none"
+                          />
+                        </div>
+                      </div>
+                    </template>
+                  </uu-accordion-item>
+                  <uu-accordion-item
+                    class="hyundai"
+                    active
+                  >
+                    <template #accordion_header>
+                      <span class="card">
+                        <span class="card_title">
+                          현대카드
+                          <span class="main_badge">
+                            <img
+                              src="/src/assets/images/img_badge_maincard.png"
+                              alt="주카드"
+                            >
+                          </span>
+                        </span>
+                        <span class="card_logo">
+                          <img
+                            src="/src/assets/images/logo_hyundaicard.svg"
+                            alt="현대카드 로고"
+                          >
+                        </span>
+                      </span>
+                    </template>
+                    <template #accordion_body>
+                      <div class="card_info">
+                        <p class="card_num">
+                          <span>1234</span>
+                          <span>●●●●</span>
+                          <span>●●●●</span>
+                          <span>9876</span>
+                        </p>
+                        <div class="card_btn_area">
+                          <uu-button
+                            label="별명 변경"
+                            btn-style="none"
+                          />
+                          <uu-button
+                            label="주카드 취소"
+                            btn-style="none"
+                          />
+                          <uu-button
+                            label="카드 삭제"
+                            btn-style="none"
+                          />
+                        </div>
+                      </div>
+                    </template>
+                  </uu-accordion-item>
+                </uu-accordion>
+                <uu-button
+                  btn-style="none"
+                  class="btn_card_regist"
+                >
+                  <uu-ic
+                    size="20"
+                    name="plus"
+                  />
+                  <span>신용/체크 카드 등록</span>
+                </uu-button>
+                <div class="notice">
+                  <p class="badge">
+                    안내
+                  </p>
+                  <p class="text">
+                    티머니 Pay & GO 신한카드는 티머니페이를
+                    등록하여 결제 시 할인 적용됩니다.
+                  </p>
+                </div>
+              </div>
+            </uu-tab>
+            <uu-tab
+              title="택시･자전거･킥보드･렌터카"
+            />
+          </uu-tabs>
+        </round-box>
+        <div class="main_card_notice">
+          <p class="badge">
+            <img
+              src="/src/assets/images/img_badge_maincard.png"
+              alt="주카드"
+            >
+          </p>
+          <p class="notice">
+            수단 등록 시, 기본 결제 수단으로 사용됩니다.
+          </p>
+        </div>
+        <round-box title="결제 비밀번호">
+          <div class="password">
+            <form>
+              <uu-checkbox
+                label="결제 비밀번호 사용"
+                value="unchecked"
+                toggle-switch
+              />
+            </form>
+            <uu-button
+              btn-style="none"
+              class="btn_repassword"
+            >
+              <span>결제 비밀번호 재설정</span>
+              <uu-ic
+                size="24"
+                name="arrow"
+              />
+            </uu-button>
+          </div>
+        </round-box>
+      </div>
+    </div> 
+  </main>
+  <!-- // main -->
+</template>
