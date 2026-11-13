@@ -130,7 +130,7 @@ const prevStep = () => {
       show
     >
       {{ `
-        import uuProgressbar  from '@/components/uu-components/uuProgressbar.vue'
+        import uuProgressbar  from '@/components/uu-components/UuProgressbar.vue'
       ` }}
     </Prism>
   </section>

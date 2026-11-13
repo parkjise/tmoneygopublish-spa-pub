@@ -62,7 +62,7 @@ const changeEvent = (value: string) => {
       show
     >
       {{ `
-        import uuTextarea from '@/components/uu-components/uuTextarea.vue'
+        import uuTextarea from '@/components/uu-components/UuTextarea.vue'
       ` }}
     </Prism>
   </section>

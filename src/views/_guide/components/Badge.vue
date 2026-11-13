@@ -67,7 +67,7 @@ import Prism from '@/components/uu-components/Prism.vue'
       show
     >
       {{ `
-      import uuBadge from '@/components/uu-components/uuBadge.vue'
+      import uuBadge from '@/components/uu-components/UuBadge.vue'
       ` }}
     </Prism>
   </section>

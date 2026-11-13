@@ -509,7 +509,7 @@ const onActive = (activeIndex: number) => {
       show
     >
       {{ `
-      import uuButton from '@/components/uu-components/uuButton.vue'
+      import uuButton from '@/components/uu-components/UuButton.vue'
       ` }}
     </Prism>
   </section>

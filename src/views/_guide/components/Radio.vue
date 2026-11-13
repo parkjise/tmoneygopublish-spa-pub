@@ -336,8 +336,8 @@ function changeEvent(value : string | number){
       show
     >
       {{ `
-      import uuFieldset  from '@/components/uu-components/uuFieldset.vue'
-      import uuRadio  from '@/components/uu-components/uuRadio.vue'
+      import uuFieldset  from '@/components/uu-components/UuFieldset.vue'
+      import uuRadio  from '@/components/uu-components/UuRadio.vue'
       ` }}
     </Prism>
   </section>

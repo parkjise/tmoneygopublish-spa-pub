@@ -349,8 +349,8 @@ function changeEvent(value : string | boolean | []){
       show
     >
       {{ `
-      import uuFieldset  from '@/components/uu-components/uuFieldset.vue'
-      import uuCheckbox  from '@/components/uu-components/uuCheckbox.vue'
+      import uuFieldset  from '@/components/uu-components/UuFieldset.vue'
+      import uuCheckbox  from '@/components/uu-components/UuCheckbox.vue'
       ` }}
     </Prism>
   </section>

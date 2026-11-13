@@ -96,7 +96,7 @@ import Prism  from '@/components/uu-components/Prism.vue'
       show
     >
       {{ `
-        import uuSkeleton from '@/components/uu-components/uuSwiper.vue'
+        import uuSkeleton from '@/components/uu-components/UuSwiper.vue'
       ` }}
     </Prism>
   </section>

@@ -286,7 +286,7 @@ const onSwiper = (swiper: swiperType) => {
       show
     >
       {{ `
-        import uuSwiper, { type swiper } from '@/components/uu-components/uuSwiper.vue'
+        import uuSwiper, { type swiper } from '@/components/uu-components/UuSwiper.vue'
         import { SwiperSlide } from 'swiper/vue';
       ` }}
     </Prism>

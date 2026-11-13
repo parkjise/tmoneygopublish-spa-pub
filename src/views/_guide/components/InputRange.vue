@@ -77,7 +77,7 @@ const sliderMax2 = ref(80);
       show
     >
       {{ `
-      import uuInputRange from '@/components/uu-components/uuInputRange.vue'
+      import uuInputRange from '@/components/uu-components/UuInputRange.vue'
       ` }}
     </Prism>
   </section>

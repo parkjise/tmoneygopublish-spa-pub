@@ -25,7 +25,7 @@ const routerUrl = (path: string) => {
       <Prism html>
         {{ `
             <script setup lang="ts">
-            import mainHeader from '@/components/layout/mainHeader.vue'
+            import mainHeader from '@/components/layout/MainHeader.vue'
 
             </script>
             <template>
@@ -65,8 +65,8 @@ const routerUrl = (path: string) => {
       <Prism html>
         {{ `
           <script setup lang="ts">
-          import subHeader from '@/components/layout/subHeader.vue'
-          import uuButton from '@/components/uu-components/uuButton.vue'
+          import subHeader from '@/components/layout/SubHeader.vue'
+          import uuButton from '@/components/uu-components/UuButton.vue'
 
           const onSubHeader = (value: string) => {
             console.log(value)
@@ -124,8 +124,8 @@ const routerUrl = (path: string) => {
         {{ `
           <script setup lang="ts">
           import { ref } from 'vue'
-          import uuButton from '@/components/uu-components/uuButton.vue'
-          import uuModal  from '@/components/uu-components/uuModal.vue'
+          import uuButton from '@/components/uu-components/UuButton.vue'
+          import uuModal  from '@/components/uu-components/UuModal.vue'
 
           const modal01 = ref(true)
 
@@ -175,8 +175,8 @@ const routerUrl = (path: string) => {
         {{ `
           <script setup lang="ts">
           import { ref } from 'vue'
-          import uuButton from '@/components/uu-components/uuButton.vue'
-          import uuModal  from '@/components/uu-components/uuModal.vue'
+          import uuButton from '@/components/uu-components/UuButton.vue'
+          import uuModal  from '@/components/uu-components/UuModal.vue'
 
           const modal01 = ref(true)
 
@@ -219,8 +219,8 @@ const routerUrl = (path: string) => {
         {{ `
           <script setup lang="ts">
           import { ref } from 'vue'
-          import uuButton from '@/components/uu-components/uuButton.vue'
-          import uuModal  from '@/components/uu-components/uuModal.vue'
+          import uuButton from '@/components/uu-components/UuButton.vue'
+          import uuModal  from '@/components/uu-components/UuModal.vue'
 
           const modal01 = ref(true)
 

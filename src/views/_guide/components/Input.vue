@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-// import uuFieldset  from '@/components/uu-components/uuFieldset.vue'
-// import uuButton from '@/components/uu-components/uuButton.vue'
+// import uuFieldset  from '@/components/uu-components/UuFieldset.vue'
+// import uuButton from '@/components/uu-components/UuButton.vue'
 import uuInput, {type inputType} from '@/components/uu-components/UuInput.vue'
 import uuIc from '@/components/uu-components/UuIc.vue'
 import Prism  from '@/components/uu-components/Prism.vue'
