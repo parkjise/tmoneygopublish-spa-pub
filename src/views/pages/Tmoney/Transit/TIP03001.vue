@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import productDetailImage from '@/assets/images/temp/product_detail_ex.png'
 import subHeader from '@/components/layout/SubHeader.vue'
 import uuIc from '@/components/uu-components/UuIc.vue'
 import roundBox from '@/components/layout/RoundBox.vue';
@@ -59,7 +60,7 @@ const scrollToUseList = () => {
         class="product_detail_img"
         :style="`
         background: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(255,255,255,.1) 27%,rgba(0,0,0,0) 50%,rgba(0, 0, 0, .5)), 
-        url(${`/src/assets/images/temp/product_detail_ex.png`})
+        url(${productDetailImage})
         no-repeat 
         center/cover`"
       />

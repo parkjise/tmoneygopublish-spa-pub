@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import uuButton from '@/components/uu-components/UuButton.vue'
 import Prism from '@/components/uu-components/Prism.vue'
-// import router from '@/router';
+import router from '@/router'
 
 const routerUrl = (path: string) => {
-  window.open(path)
+  window.open(router.resolve(path).href)
 }
 
 </script>

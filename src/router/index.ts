@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory, createWebHashHistory, type RouteRecordRaw } from 'vue-router'
 import routerGuide from '@/router/routers/guide.routes'
 import routerLayout from '@/router/routers/layout.routes'
 import routerCommon from '@/router/routers/common.routes'
@@ -19,7 +19,9 @@ const routes: Array<RouteRecordRaw> = [
   }
 ]
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: import.meta.env.VITE_GITHUB_PAGES === 'true'
+    ? createWebHashHistory(import.meta.env.BASE_URL)
+    : createWebHistory(import.meta.env.BASE_URL),
   routes
 })
 

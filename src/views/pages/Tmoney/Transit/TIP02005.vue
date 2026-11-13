@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import exhibitionImage from '@/assets/images/temp/exhibition_ex.png'
 import subHeader from '@/components/layout/SubHeader.vue'
 import uuIc from '@/components/uu-components/UuIc.vue'
 
@@ -38,7 +39,7 @@ let noResult = ref(false);
               </div>
               <div 
                 class="exhibition_thumb"
-                :style="{backgroundImage:`url(/src/assets/images/temp/exhibition_ex.png)`}"
+                :style="{backgroundImage:`url(${exhibitionImage})`}"
               />
             </button>
           </li>
